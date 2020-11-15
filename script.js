@@ -32,17 +32,17 @@ function contentArea() {
         postDiv.innerHTML = postStr;
         contentDiv.appendChild(postDiv);
 
-        const postStr2 = `<br> <img src = ${post.img.src} alt="" id=img> <br><br>`;
+        const postStr2 = `<img src = ${post.img.src} alt="" id=img>`;
         postDiv2.className = "img";
         postDiv2.innerHTML = postStr2;
         contentDiv.appendChild(postDiv2); 
 
-        const postStr4 = `<br>${post.quote} <br><br>`;
+        const postStr4 = `${post.quote}`;
         postDiv4.className = "quote";
         postDiv4.innerHTML = postStr4;
         contentDiv.appendChild(postDiv4);
         
-        const postStr3 = `<br>${post.content} <br><br>`;
+        const postStr3 = `${post.content}`;
         postDiv3.className = "texto";
         postDiv3.innerHTML = postStr3;
         contentDiv.appendChild(postDiv3);
